@@ -1,6 +1,6 @@
 import Foundation
 
-extension Date {
+public extension Date {
     func convertToString(format: String = "yyyy-MM-dd'T'HH:mm:ssZ") -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.timeZone = TimeZone.current
